@@ -64,6 +64,26 @@ int main()
               		voice.execute_voice_command();
               		cout << endl;
               }
+              else if(input=="chrome open")
+              {
+              	voice_out voice;
+                     voice.initializer("opening chrome");
+                     voice.print_voice_note("opening chrome");
+                     voice.execute_voice_command();
+                     cout << endl;
+              	system("START chrome.exe");
+
+              }
+              else if(input=="firefox open")
+              {
+              	voice_out voice;
+                     voice.initializer("opening firefox");
+                     voice.print_voice_note("opening firefox");
+                     voice.execute_voice_command();
+                     cout << endl;
+              	system("START firefox.exe");
+
+              }
               else if(input.find("open")!=string::npos)
               {
                      string WebName = input.substr(5,input.size() - 1);
@@ -125,6 +145,7 @@ int main()
                     system("START timer.exe");
                     cout << endl;
               }
+
               else if(input=="bye")
               {
                      voice_out voice;
