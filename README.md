@@ -19,4 +19,6 @@ a handy tool for users.
 
 
 This bot uses the open source software espeak.
+
+COPYRIGHT :
 Copyrights of this chatbot application owned by me, i.e., Mohammed Zubair.
